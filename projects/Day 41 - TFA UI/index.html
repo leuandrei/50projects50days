@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2FA UI</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Verify Your Account</h2>
+        <p>Everyone hates two-factor authentication.
+            <br/>However, security standars dictate that we shall all use them.
+            <br/>So here we are, complying. Pretend you received a code on your phone or email and add it here.
+            <br/>To comply with security standards, this code should be checked in back-end too.
+        </p>
+        <div class="code-container">
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+        </div>
+        <small class="info">
+            Did you know? 2FA does not protect you against session hijacking. Enjoy :)
+        </small>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
