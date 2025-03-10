@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flowey Clicker</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>Click on Flowey!</h1>
+        <button id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+        <h1>Choose your favorite Flowey!</h1>
+        <ul class="flowey-list">
+            <li>
+                <button class="choose-flowey-btn">
+                    <p>Flower Flowey</p>
+                    <img src="https://static.wikia.nocookie.net/inconsistently-heinous/images/7/76/FloweyTransparent.png/revision/latest?cb=20211120142012" alt="Flower Flowey">
+                </button>
+            </li>
+            <li>
+                <button class="choose-flowey-btn">
+                    <p>Mutated Flowey</p>
+                    <img src="https://preview.redd.it/which-one-is-a-better-final-boss-v0-d9zubpfzesvb1.png?width=720&format=png&auto=webp&s=9b00e23d947a8fa7351c28752714ec27dea82dc8" alt="Mutated Flowey">
+                </button>
+            </li>
+            <li>
+                <button class="choose-flowey-btn">
+                    <p>Asriel Flowey</p>
+                    <img src="https://i.ytimg.com/vi/ARyfN31HqMc/maxresdefault.jpg" alt="Asriel Flowey">
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container">
+        <h3 id="time">Time: 00:00</h3>
+        <h3 id="score">Score: 0</h3>
+        <h5 id="message" class="message">
+            Enjoying the game? <br>
+            It is unwinnable!
+        </h5>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
